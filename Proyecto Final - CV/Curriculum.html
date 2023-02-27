@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Icono-Pestaña.png">
+    <link rel="stylesheet" type="text/css" href="Estilos-CV.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+
+    <nav>
+        <img src="Foto CV.jpg" alt="Foto carnet de la persona">
+    </nav>
+    
+    <br><br>
+
+    <section>
+        <span class="span_dato">Informacion personal</span>
+        <button id="Boton_inf_personal"><img class="img_boton" src="icono flecha abrir.png" alt="Desplegar Informacion"></button>
+        <ul id="lista1" class="lista1">
+            <li class="li1" id="l1"> Nombre:<span class="spanLista1" id="spanLista1"> Alfonso - Carlos German</span></li>
+            <li class="li1" id="l2"> E-mail:<span class="spanLista1" id="spanLista1"> germanalfonso788@gmail.com</span></li>
+            <li class="li1" id="l3"> Celular:<span class="spanLista1" id="spanLista1"> 0123-4567890</span></li>
+            <li class="li1" id="l4"> Ubicacion:<span class="spanLista1" id="spanLista1"> San Luis - Argentina</span></li>
+        </ul>
+
+        <br><span class="span_dato">Formacion</span>
+        <button id="Boton_formacion"><img class="img_boton" src="icono flecha abrir.png" alt="Desplegar Informacion"></button>
+        <ul id="lista2" class="lista2">
+            <li>
+                <span class="span_formacion">Secundario:</span><span class="span_inf"> Colegio 9 de Julio</span>
+            </li>
+            <li>
+                <span class="span_formacion">Universidad:</span><span class="span_inf"> Licenciatura en Ciencias de la Computacion</span>
+            </li>
+        </ul>
+
+        <br><span class="span_dato">Habilidades</span>
+        <button id="Boton_habili"><img class="img_boton" src="icono flecha abrir.png" alt="Desplegar Informacion"></button>
+        <ul id="lista3" class="lista3">
+            <li>
+                <span class="span_habili">Inlges:</span><span class="span_inf"> A1</span>
+            </li>
+            <li>
+                <span class="span_habili">Edicion de imagen y video:</span><span class="span_inf"> Basico</span>
+            </li>
+            <li>
+                <span class="span_habili">Aprendizaje:</span><span class="span_inf"> Autodidacta</span>
+            </li>
+        </ul>
+
+        <br><span class="span_dato">Experiencia</span>
+        <button id="Boton_Exp"><img class="img_boton" src="icono flecha abrir.png" alt="Desplegar Informacion"></button>
+        <ul id="lista4" class="lista4">
+            <li>
+                <span class="span_exp">Mozo:</span><span class="span_inf"> Lo Del Peky | Noviembre 2022 - Diciembre 2022</span>
+            </li><br>
+            <li>
+                <span class="span_exp">Cajero:</span><span class="span_inf"> Don Repulgue | Diciembre 2022 - Enero 2023</span>
+            </li>
+        </ul>
+    </section>
+
+    <script src="Curriculum.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #C9C9C9;
+}
+
+section{
+    margin-left: 250px;
+}
+
+/* Estilo de la imagen del CV */
+img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width: 13%;
+    display: block;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+/* acomodo las sangrias y tamaño de los puntos de las listas */
+ul {
+    margin-left: 130px;
+    font-size: 80%;
+}
+
+/* estilos de los enunciados de cada lista */
+span{
+    font-size: 20px;
+}
+.span_dato{
+    font-weight: bold;
+}
+.span_formacion{
+    text-decoration: underline;
+}
+.span_exp{
+    text-decoration: underline;
+}
+.span_habili{
+    text-decoration: underline;
+}
+.spanLista1{
+    text-decoration: underline #C9C9C9 2px;
+    font-size: 16px;
+}
+.span_inf{
+    font-size: 16px;
+}
+
+/* estilo de cada punto de las listas (las clases con before son para los iconos de la lista 1) */
+.lista1{
+    list-style: none;
+    margin-left: 105px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.lista1 li:nth-child(1)::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(icono\ persona.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+.lista1 li:nth-child(2)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(icono\ email.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lista1 li:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(icono\ telefono.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lista1 li:nth-child(4)::before {
+    content: '';
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background-image: url(icono\ ubi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    font-size: 16px;
+}
+.li1{
+    font-size: 20px;
+}
+
+/* estilo del boton */
+button{
+    background: #C9C9C9;
+    border: 0px solid #0099CC;
+    border-radius: 6px;
+}
+button:hover{
+    border: 2px solid #0099CC;
+}
+.img_boton{
+    width: 17px;
+    height: 15px;
+}
+
+/* mostrar y ocultar informacion */
+.lista1{
+    display: none;
+}
+.lista2 {
+    display: none;
+}
+.lista3 {
+    display: none;
+}
+.lista4 {
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+@media only screen and (max-width: 900px){
+    h1{
+        font-size: 40px;
+    }
+    ul{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    section{
+        margin-left: 0px;
+    }
+    img{
+        width: 60%;
+    }
+    .lista1{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .spanLista1 {
+        text-decoration: underline #C9C9C9 2px;
+        font-size: 16px;
+    }
+
+    .span_inf {
+        font-size: 17px;
+    }
+}
